@@ -1,0 +1,804 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Spice Symphony",
+      "description": "A symphony of authentic Indian spices and flavors.",
+      "location": "Mumbai, Maharashtra",
+      "rating": 4.5,
+      "image_src": "https://example.com/images/spice_symphony.jpg",
+      "menu": [
+        {
+          "name": "Butter Chicken",
+          "description": "A rich and creamy chicken curry.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/butter_chicken.jpg"
+        },
+        {
+          "name": "Paneer Tikka",
+          "description": "Grilled paneer marinated in spices.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/paneer_tikka.jpg"
+        },
+        {
+          "name": "Garlic Naan",
+          "description": "Soft naan bread topped with garlic.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/garlic_naan.jpg"
+        },
+        {
+          "name": "Chicken Biryani",
+          "description": "Fragrant basmati rice cooked with chicken and spices.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chicken_biryani.jpg"
+        },
+        {
+          "name": "Chole Bhature",
+          "description": "Spicy chickpeas served with fried bread.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chole_bhature.jpg"
+        },
+        {
+          "name": "Aloo Paratha",
+          "description": "Stuffed paratha with spiced potatoes.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/aloo_paratha.jpg"
+        },
+        {
+          "name": "Gulab Jamun",
+          "description": "Soft dumplings in sugar syrup.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gulab_jamun.jpg"
+        },
+        {
+          "name": "Palak Paneer",
+          "description": "Spinach curry with cottage cheese.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/palak_paneer.jpg"
+        },
+        {
+          "name": "Mango Lassi",
+          "description": "Refreshing yogurt drink with mango.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/mango_lassi.jpg"
+        },
+        {
+          "name": "Samosa",
+          "description": "Crispy pastry filled with spiced potatoes.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/samosa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tandoor Delights",
+      "description": "Delicious tandoori dishes straight from the clay oven.",
+      "location": "Delhi, Delhi",
+      "rating": 4.7,
+      "image_src": "https://example.com/images/tandoor_delights.jpg",
+      "menu": [
+        {
+          "name": "Tandoori Chicken",
+          "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/tandoori_chicken.jpg"
+        },
+        {
+          "name": "Naan",
+          "description": "Leavened Indian bread cooked in a tandoor.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/naan.jpg"
+        },
+        {
+          "name": "Seekh Kebab",
+          "description": "Minced meat skewers cooked in a tandoor.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/seekh_kebab.jpg"
+        },
+        {
+          "name": "Paneer Tikka",
+          "description": "Paneer marinated in spices and cooked in a tandoor.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/paneer_tikka.jpg"
+        },
+        {
+          "name": "Tandoori Roti",
+          "description": "Whole wheat flatbread cooked in a tandoor.",
+          "price": 29,
+          "quantity": 1,
+          "image_src": "https://example.com/images/tandoori_roti.jpg"
+        },
+        {
+          "name": "Fish Tikka",
+          "description": "Fish marinated in spices and cooked in a tandoor.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/fish_tikka.jpg"
+        },
+        {
+          "name": "Mutton Biryani",
+          "description": "Aromatic rice cooked with tender mutton pieces.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/mutton_biryani.jpg"
+        },
+        {
+          "name": "Raita",
+          "description": "Yogurt mixed with vegetables and spices.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/raita.jpg"
+        },
+        {
+          "name": "Lassi",
+          "description": "Traditional yogurt-based drink.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/lassi.jpg"
+        },
+        {
+          "name": "Gajar Halwa",
+          "description": "Sweet dessert made from carrots.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gajar_halwa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Biryani House",
+      "description": "The best biryanis from around India.",
+      "location": "Hyderabad, Telangana",
+      "rating": 4.8,
+      "image_src": "https://example.com/images/biryani_house.jpg",
+      "menu": [
+        {
+          "name": "Hyderabadi Biryani",
+          "description": "Aromatic basmati rice cooked with mutton.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/hyderabadi_biryani.jpg"
+        },
+        {
+          "name": "Chicken Biryani",
+          "description": "Fragrant rice cooked with chicken and spices.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chicken_biryani.jpg"
+        },
+        {
+          "name": "Vegetable Biryani",
+          "description": "Aromatic rice cooked with mixed vegetables.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/vegetable_biryani.jpg"
+        },
+        {
+          "name": "Egg Biryani",
+          "description": "Fragrant rice cooked with eggs and spices.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/egg_biryani.jpg"
+        },
+        {
+          "name": "Fish Biryani",
+          "description": "Aromatic rice cooked with fish and spices.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/fish_biryani.jpg"
+        },
+        {
+          "name": "Paneer Biryani",
+          "description": "Aromatic rice cooked with paneer and spices.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/paneer_biryani.jpg"
+        },
+        {
+          "name": "Raita",
+          "description": "Yogurt mixed with vegetables and spices.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/raita.jpg"
+        },
+        {
+          "name": "Salad",
+          "description": "Fresh vegetables salad.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/salad.jpg"
+        },
+        {
+          "name": "Gulab Jamun",
+          "description": "Soft dumplings in sugar syrup.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gulab_jamun.jpg"
+        },
+        {
+          "name": "Mango Lassi",
+          "description": "Refreshing yogurt drink with mango.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/mango_lassi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Curry House",
+      "description": "Delicious curries from different regions of India.",
+      "location": "Chennai, Tamil Nadu",
+      "rating": 4.6,
+      "image_src": "https://example.com/images/the_curry_house.jpg",
+      "menu": [
+        {
+          "name": "Chicken Curry",
+          "description": "Spicy chicken curry with rich gravy.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chicken_curry.jpg"
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "description": "Paneer cooked in a creamy tomato sauce.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/paneer_butter_masala.jpg"
+        },
+        {
+          "name": "Dal Makhani",
+          "description": "Creamy black lentils cooked with butter and spices.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/dal_makhani.jpg"
+        },
+        {
+          "name": "Fish Curry",
+          "description": "Spicy fish curry with rich gravy.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/fish_curry.jpg"
+        },
+        {
+          "name": "Mutton Rogan Josh",
+          "description": "Tender mutton cooked in a spicy gravy.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/mutton_rogan_josh.jpg"
+        },
+        {
+          "name": "Aloo Gobi",
+          "description": "Potatoes and cauliflower cooked with spices.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/aloo_gobi.jpg"
+        },
+        {
+          "name": "Bhindi Masala",
+          "description": "Okra cooked with onions and tomatoes.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/bhindi_masala.jpg"
+        },
+        {
+          "name": "Rice",
+          "description": "Steamed basmati rice.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/rice.jpg"
+        },
+        {
+          "name": "Naan",
+          "description": "Leavened Indian bread cooked in a tandoor.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/naan.jpg"
+        },
+        {
+          "name": "Gajar Halwa",
+          "description": "Sweet dessert made from carrots.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gajar_halwa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dosa Corner",
+      "description": "Authentic South Indian dosas and more.",
+      "location": "Bangalore, Karnataka",
+      "rating": 4.7,
+      "image_src": "https://example.com/images/dosa_corner.jpg",
+      "menu": [
+        {
+          "name": "Masala Dosa",
+          "description": "Crispy dosa filled with spiced potatoes.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/masala_dosa.jpg"
+        },
+        {
+          "name": "Plain Dosa",
+          "description": "Crispy and golden brown dosa.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/plain_dosa.jpg"
+        },
+        {
+          "name": "Onion Rava Dosa",
+          "description": "Crispy dosa made with semolina and onions.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/onion_rava_dosa.jpg"
+        },
+        {
+          "name": "Uttapam",
+          "description": "Thick dosa topped with vegetables.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/uttapam.jpg"
+        },
+        {
+          "name": "Idli",
+          "description": "Soft and fluffy steamed rice cakes.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/idli.jpg"
+        },
+        {
+          "name": "Vada",
+          "description": "Crispy fried lentil donuts.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/vada.jpg"
+        },
+        {
+          "name": "Sambar",
+          "description": "Spicy lentil soup with vegetables.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sambar.jpg"
+        },
+        {
+          "name": "Coconut Chutney",
+          "description": "Fresh chutney made with coconut.",
+          "price": 29,
+          "quantity": 1,
+          "image_src": "https://example.com/images/coconut_chutney.jpg"
+        },
+        {
+          "name": "Filter Coffee",
+          "description": "Traditional South Indian filter coffee.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/filter_coffee.jpg"
+        },
+        {
+          "name": "Rava Kesari",
+          "description": "Sweet dessert made with semolina.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/rava_kesari.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Street Food Junction",
+      "description": "A variety of Indian street food delights.",
+      "location": "Ahmedabad, Gujarat",
+      "rating": 4.4,
+      "image_src": "https://example.com/images/street_food_junction.jpg",
+      "menu": [
+        {
+          "name": "Pani Puri",
+          "description": "Crispy puris filled with spicy water.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/pani_puri.jpg"
+        },
+        {
+          "name": "Bhel Puri",
+          "description": "A mix of puffed rice, vegetables, and tangy tamarind sauce.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/bhel_puri.jpg"
+        },
+        {
+          "name": "Dahi Puri",
+          "description": "Crispy puris filled with yogurt and chutneys.",
+          "price": 69,
+          "quantity": 1,
+          "image_src": "https://example.com/images/dahi_puri.jpg"
+        },
+        {
+          "name": "Pav Bhaji",
+          "description": "Spicy vegetable mash served with buttered bread.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/pav_bhaji.jpg"
+        },
+        {
+          "name": "Vada Pav",
+          "description": "Spicy potato fritter served in a bun.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/vada_pav.jpg"
+        },
+        {
+          "name": "Sev Puri",
+          "description": "Crispy puris topped with potatoes, chutneys, and sev.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sev_puri.jpg"
+        },
+        {
+          "name": "Ragda Pattice",
+          "description": "Potato patties served with spicy white peas curry.",
+          "price": 79,
+          "quantity": 1,
+          "image_src": "https://example.com/images/ragda_pattice.jpg"
+        },
+        {
+          "name": "Kachori",
+          "description": "Deep-fried pastry filled with spicy lentils.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/kachori.jpg"
+        },
+        {
+          "name": "Dhokla",
+          "description": "Steamed fermented rice and chickpea flour cake.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/dhokla.jpg"
+        },
+        {
+          "name": "Falooda",
+          "description": "A sweet drink made with milk, vermicelli, and ice cream.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/falooda.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mughlai Mahal",
+      "description": "Rich and flavorful Mughlai cuisine.",
+      "location": "Lucknow, Uttar Pradesh",
+      "rating": 4.8,
+      "image_src": "https://example.com/images/mughlai_mahal.jpg",
+      "menu": [
+        {
+          "name": "Murgh Musallam",
+          "description": "Whole chicken marinated and cooked with spices.",
+          "price": 599,
+          "quantity": 1,
+          "image_src": "https://example.com/images/murgh_musallam.jpg"
+        },
+        {
+          "name": "Nihari",
+          "description": "Slow-cooked stew of meat and spices.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/nihari.jpg"
+        },
+        {
+          "name": "Shami Kebab",
+          "description": "Minced meat patties with spices.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/shami_kebab.jpg"
+        },
+        {
+          "name": "Biryani",
+          "description": "Fragrant basmati rice cooked with meat and spices.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/biryani.jpg"
+        },
+        {
+          "name": "Korma",
+          "description": "Rich and creamy meat curry.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/korma.jpg"
+        },
+        {
+          "name": "Sheermal",
+          "description": "Sweet naan bread cooked in a tandoor.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sheermal.jpg"
+        },
+        {
+          "name": "Gulab Jamun",
+          "description": "Soft dumplings in sugar syrup.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gulab_jamun.jpg"
+        },
+        {
+          "name": "Firni",
+          "description": "Creamy rice pudding flavored with cardamom.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/firni.jpg"
+        },
+        {
+          "name": "Seekh Kebab",
+          "description": "Minced meat skewers cooked in a tandoor.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/seekh_kebab.jpg"
+        },
+        {
+          "name": "Kebabs",
+          "description": "Assorted grilled meat skewers.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/kebabs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Punjabi Dhaba",
+      "description": "Authentic and hearty Punjabi dishes.",
+      "location": "Amritsar, Punjab",
+      "rating": 4.6,
+      "image_src": "https://example.com/images/punjabi_dhaba.jpg",
+      "menu": [
+        {
+          "name": "Sarson da Saag",
+          "description": "Mustard greens cooked with spices.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sarson_da_saag.jpg"
+        },
+        {
+          "name": "Makki di Roti",
+          "description": "Unleavened cornmeal flatbread.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/makki_di_roti.jpg"
+        },
+        {
+          "name": "Butter Chicken",
+          "description": "A rich and creamy chicken curry.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/butter_chicken.jpg"
+        },
+        {
+          "name": "Chole Bhature",
+          "description": "Spicy chickpeas served with fried bread.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chole_bhature.jpg"
+        },
+        {
+          "name": "Paneer Tikka",
+          "description": "Grilled paneer marinated in spices.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/paneer_tikka.jpg"
+        },
+        {
+          "name": "Dal Makhani",
+          "description": "Creamy black lentils cooked with butter and spices.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/dal_makhani.jpg"
+        },
+        {
+          "name": "Naan",
+          "description": "Leavened Indian bread cooked in a tandoor.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/naan.jpg"
+        },
+        {
+          "name": "Amritsari Kulcha",
+          "description": "Stuffed flatbread with spiced potatoes.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/amritsari_kulcha.jpg"
+        },
+        {
+          "name": "Lassi",
+          "description": "Traditional yogurt-based drink.",
+          "price": 99,
+          "quantity": 1,
+          "image_src": "https://example.com/images/lassi.jpg"
+        },
+        {
+          "name": "Gajar Halwa",
+          "description": "Sweet dessert made from carrots.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/gajar_halwa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Goan Delight",
+      "description": "Exotic flavors of Goan cuisine.",
+      "location": "Panaji, Goa",
+      "rating": 4.5,
+      "image_src": "https://example.com/images/goan_delight.jpg",
+      "menu": [
+        {
+          "name": "Goan Fish Curry",
+          "description": "Tangy and spicy fish curry with coconut.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/goan_fish_curry.jpg"
+        },
+        {
+          "name": "Prawn Balchao",
+          "description": "Spicy and tangy prawn pickle.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/prawn_balchao.jpg"
+        },
+        {
+          "name": "Chicken Xacuti",
+          "description": "Spicy chicken curry with roasted coconut.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/chicken_xacuti.jpg"
+        },
+        {
+          "name": "Goan Prawn Curry",
+          "description": "Creamy and flavorful prawn curry with coconut milk.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/goan_prawn_curry.jpg"
+        },
+        {
+          "name": "Pork Vindaloo",
+          "description": "Spicy and tangy pork curry.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/pork_vindaloo.jpg"
+        },
+        {
+          "name": "Sorpotel",
+          "description": "Spicy pork curry.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sorpotel.jpg"
+        },
+        {
+          "name": "Sannas",
+          "description": "Steamed rice cakes, a Goan specialty.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/sannas.jpg"
+        },
+        {
+          "name": "Bebinca",
+          "description": "Traditional Goan layered dessert.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/bebinca.jpg"
+        },
+        {
+          "name": "Goan Sausage Pulao",
+          "description": "Rice cooked with Goan sausages.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/goan_sausage_pulao.jpg"
+        },
+        {
+          "name": "Coconut Feni",
+          "description": "Traditional Goan alcoholic beverage made from coconut.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/coconut_feni.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Kerala Kitchen",
+      "description": "Authentic Kerala cuisine with a touch of tradition.",
+      "location": "Kochi, Kerala",
+      "rating": 4.7,
+      "image_src": "https://example.com/images/kerala_kitchen.jpg",
+      "menu": [
+        {
+          "name": "Appam with Stew",
+          "description": "Soft and fluffy appam served with a coconut-based stew.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/appam_stew.jpg"
+        },
+        {
+          "name": "Kerala Parotta",
+          "description": "Layered flatbread from Kerala.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/kerala_parotta.jpg"
+        },
+        {
+          "name": "Fish Molee",
+          "description": "Mildly spiced fish curry with coconut milk.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/fish_molee.jpg"
+        },
+        {
+          "name": "Prawn Mango Curry",
+          "description": "Tangy prawn curry with raw mango.",
+          "price": 349,
+          "quantity": 1,
+          "image_src": "https://example.com/images/prawn_mango_curry.jpg"
+        },
+        {
+          "name": "Beef Fry",
+          "description": "Spicy and crispy beef fry.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/beef_fry.jpg"
+        },
+        {
+          "name": "Thalassery Biryani",
+          "description": "Aromatic biryani from the Malabar region.",
+          "price": 299,
+          "quantity": 1,
+          "image_src": "https://example.com/images/thalassery_biryani.jpg"
+        },
+        {
+          "name": "Vegetable Avial",
+          "description": "Mixed vegetables cooked with coconut and yogurt.",
+          "price": 199,
+          "quantity": 1,
+          "image_src": "https://example.com/images/vegetable_avial.jpg"
+        },
+        {
+          "name": "Palada Payasam",
+          "description": "Traditional Kerala dessert made with rice and milk.",
+          "price": 149,
+          "quantity": 1,
+          "image_src": "https://example.com/images/palada_payasam.jpg"
+        },
+        {
+          "name": "Kappa and Meen Curry",
+          "description": "Boiled tapioca served with spicy fish curry.",
+          "price": 249,
+          "quantity": 1,
+          "image_src": "https://example.com/images/kappa_meen_curry.jpg"
+        },
+        {
+          "name": "Banana Chips",
+          "description": "Crispy fried banana slices.",
+          "price": 49,
+          "quantity": 1,
+          "image_src": "https://example.com/images/banana_chips.jpg"
+        }
+      ]
+    }
+  ]
+}
